@@ -1,0 +1,182 @@
+(footprint "D1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D1"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "d5ae8d6c-2dd5-41ab-8090-c724ef4d0d85")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "1N4148WS"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "108a2e6e-f45f-4adb-b34a-4f2683fd36fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ManufacturerPartNumber" "1N4148WS-7-F"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f72c5cf7-4502-5088-a0f9-08ee1bbc0f48")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceBOM" "https://drive.google.com/file/d/1EBPdoYV8IRlJl5H9KqLQGCuI6NOrhwHS/view"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "743022ef-9f67-541c-bdc6-6adc22876534")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceDesignator" "D1"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "be70c752-31d8-555f-9eda-b3149d27d10e")
+		(effects (font (size 1 1)))
+	)
+	(property "Manufacturer" "Diodes Incorporated"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "8be3722d-e7f4-5cbe-9922-44202b4b88d3")
+		(effects (font (size 1 1)))
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c17526c7-618a-43f9-9c42-52c809134498")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "42f4eda9-62c4-43ef-a342-41b1de3886fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.349999 -0.225001) (xy -1.349999 0.224998) (xy -0.749999 0.224998) (xy -0.749999 -0.225001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "11cd5773-af2b-487d-bfc7-3a9fce9d4094")
+	)
+	(fp_poly
+		(pts
+			(xy 0.75 -0.224997) (xy 0.75 0.225003) (xy 1.35 0.225003) (xy 1.35 -0.224997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ad9e8350-603b-4d00-aad1-acbc78be4030")
+	)
+	(fp_poly
+		(pts
+			(xy -1.350001 0.224997) (xy -0.75 0.224997) (xy -0.75 -0.225003) (xy -1.350001 -0.225003) (xy -1.350001 0.224997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "73de3e8b-d060-44e4-b127-e6fd9986c78f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.75 0.225003) (xy 1.35 0.225003) (xy 1.35 -0.224997) (xy 0.75 -0.224997) (xy 0.75 0.225003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c5bbfd94-340f-4d95-8ff6-0d2a92d34ebf")
+	)
+	(pad "1" smd custom
+		(at -1.05 -0.000003)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.299999 0.225) (xy 0.299999 0.225) (xy 0.299999 -0.225) (xy -0.299999 -0.225) (xy -0.299999 0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b0c545b5-8fba-49e6-889a-8e939d2adc6a")
+	)
+	(pad "2" smd custom
+		(at 1.05 0.000003)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.299999 0.225) (xy 0.299999 0.225) (xy 0.299999 -0.225) (xy -0.299999 -0.225) (xy -0.299999 0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "cfc1f58c-9708-49c6-8369-544a466e7f12")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/D_SOD-323.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

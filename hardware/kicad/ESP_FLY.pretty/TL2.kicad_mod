@@ -1,0 +1,177 @@
+(footprint "TL2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TL2"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "0afae1de-b180-4cf9-9392-47ce9746033b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Đỏ"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "35513fcf-690a-4975-a553-bc4a914277c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ManufacturerPartNumber" "TZ-P2-0805RTCS2-0.8T"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fd537958-e49d-563b-b24c-dcf5b3684f19")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceBOM" "https://drive.google.com/file/d/1EBPdoYV8IRlJl5H9KqLQGCuI6NOrhwHS/view"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "760e9261-121a-5ae6-977e-5e83ae5dadc2")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceDesignator" "TL2"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1ffbeecf-9948-5a87-82bd-6bc592e2f05a")
+		(effects (font (size 1 1)))
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ded45e6c-8435-4795-b940-812f0a807fe8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a90a4329-33f9-4714-a690-6d66ee2c098c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.424999 -0.7) (xy -1.424999 0.7) (xy -0.475 0.7) (xy -0.475 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "31a6bbbb-6e9d-4e3b-b063-0253548e570e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.475001 -0.7) (xy 0.475001 0.7) (xy 1.425 0.7) (xy 1.425 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "27792bab-79c7-423e-bb52-a9325b572b58")
+	)
+	(fp_poly
+		(pts
+			(xy -0.475 -0.7) (xy -1.425 -0.7) (xy -1.425 0.7) (xy -0.475 0.7) (xy -0.475 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e9f7d4d5-398b-402a-a5ba-c086ac9338e2")
+	)
+	(fp_poly
+		(pts
+			(xy 1.425 -0.7) (xy 0.475 -0.7) (xy 0.475 0.7) (xy 1.425 0.7) (xy 1.425 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "76aa040b-8192-4da7-b303-4a5d97af0e0a")
+	)
+	(pad "1" smd custom
+		(at 0.95 0)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.474999 -0.699999) (xy -0.474999 -0.699999) (xy -0.474999 0.699999) (xy 0.474999 0.699999)
+					(xy 0.474999 -0.699999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8367b04e-097f-4853-89a5-39f76a8bdf29")
+	)
+	(pad "2" smd custom
+		(at -0.95 0)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.474999 -0.699999) (xy -0.474999 -0.699999) (xy -0.474999 0.699999) (xy 0.474999 0.699999)
+					(xy 0.474999 -0.699999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "cd6963d8-43fb-4a65-80eb-244cfbef980b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

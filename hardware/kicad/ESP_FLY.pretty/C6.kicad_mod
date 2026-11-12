@@ -1,0 +1,179 @@
+(footprint "C6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "18318427-61d9-4f56-98da-0ab48c3c3c3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "0.01uF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74665fc0-66ee-4a4a-b2fa-5512daf09c3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ManufacturerPartNumber" "CC0805KRX7R9BB103"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c39c6f1-0a20-53ad-8272-223f59d9b01d")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceBOM" "https://drive.google.com/file/d/1EBPdoYV8IRlJl5H9KqLQGCuI6NOrhwHS/view"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c09a05c-8ba5-5e44-b23a-d894f786c409")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceDesignator" "C6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e25ccb9-0855-52fd-8da6-34e5bf815cef")
+		(effects (font (size 1 1)))
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6586b3f-ca17-58c1-b896-d7cfaf2c7b9b")
+		(effects (font (size 1 1)))
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a2d5318-70e1-4ed3-ad3c-c0af067f02b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca2be0fb-d410-4dff-bc0c-a6aa89a1015a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.685003 -0.654999) (xy -0.685003 -1.410599) (xy 0.684997 -1.410599) (xy 0.684997 -0.654999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "bcd294b9-5e72-4373-9fc8-dec3dd76a0af")
+	)
+	(fp_poly
+		(pts
+			(xy -0.684996 1.4106) (xy -0.684996 0.655) (xy 0.685004 0.655) (xy 0.685004 1.4106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ac598d4c-82d8-4681-877d-21de483aff62")
+	)
+	(fp_poly
+		(pts
+			(xy 0.684995 -1.410599) (xy 0.684995 -0.654999) (xy -0.685004 -0.654999) (xy -0.685004 -1.410599)
+			(xy 0.684995 -1.410599)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "8894dc6e-ba1d-42c2-913b-6da3d9e63bcb")
+	)
+	(fp_poly
+		(pts
+			(xy 0.685004 0.655) (xy 0.685004 1.410601) (xy -0.684996 1.410601) (xy -0.684996 0.655) (xy 0.685004 0.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "40c7c92c-dfc8-4394-a578-3c7f7e11118c")
+	)
+	(pad "1" smd custom
+		(at 0.000004 1.032801)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.685 -0.3778) (xy 0.685 0.3778) (xy -0.685 0.3778) (xy -0.685 -0.3778) (xy 0.685 -0.3778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0c7cd82c-2016-4b07-a5f2-b6a47d625c17")
+	)
+	(pad "2" smd custom
+		(at -0.000004 -1.032799)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.684999 -0.3778) (xy 0.684999 0.377799) (xy -0.684999 0.377799) (xy -0.684999 -0.3778) (xy 0.684999 -0.3778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3f7f3256-64e7-442c-b277-9b912ada2454")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

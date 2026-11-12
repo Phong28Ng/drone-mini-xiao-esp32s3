@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "ESP_FLY")(type "KiCad")(uri "${KIPRJMOD}/ESP_FLY.pretty")(options "")(descr "Hình học pad ESP-FLY khôi phục từ Gerber")))

@@ -1,0 +1,226 @@
+(footprint "Q2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Q2"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "6b2702dd-a9f7-48d8-b438-2a890e72013d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "KSI2300DS"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3cc2c91e-f4c1-4197-860d-e39b1d59d661")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ManufacturerPartNumber" "KSI2300DS-T1-GE3"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a7b48175-2a56-5e44-943e-c4e958e07d7c")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceBOM" "https://drive.google.com/file/d/1EBPdoYV8IRlJl5H9KqLQGCuI6NOrhwHS/view"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "bd77e7b1-2555-5977-8891-1712218e4721")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceDesignator" "Q2"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "99f91a7b-0243-5b34-b3c1-5078e22be1c6")
+		(effects (font (size 1 1)))
+	)
+	(property "Manufacturer" "KUU / Yongyutai"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f2406d04-6588-5bbf-bf0a-e9877e23f356")
+		(effects (font (size 1 1)))
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "5e1efdf3-b536-4c11-accf-5349bbd71e17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ac666210-4f19-4558-a055-36b27ef910ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.350003 -1.449997) (xy -1.350003 -0.549997) (xy -0.550003 -0.549997) (xy -0.550003 -1.449997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "96c145bf-dea5-4114-84fb-07ead79dc108")
+	)
+	(fp_poly
+		(pts
+			(xy -0.399996 0.549999) (xy -0.399996 1.449999) (xy 0.400003 1.449999) (xy 0.400003 0.549999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "f2f47f54-8f4a-4ee1-acf6-a1e6f467b556")
+	)
+	(fp_poly
+		(pts
+			(xy 0.549997 -1.450004) (xy 0.549997 -0.550003) (xy 1.349997 -0.550003) (xy 1.349997 -1.450004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "1039b678-c948-49e5-9b17-2f1caf1cd1c7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.350004 -1.449997) (xy -1.350004 -0.549997) (xy -0.550004 -0.549997) (xy -0.550004 -1.449997)
+			(xy -1.350004 -1.449997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "0b528d12-d456-441c-8d12-c0053c6097cb")
+	)
+	(fp_poly
+		(pts
+			(xy -0.399996 0.550001) (xy -0.399996 1.45) (xy 0.400003 1.45) (xy 0.400003 0.550001) (xy -0.399996 0.550001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c21a5b8a-be26-4e44-819b-be664f2a8b5a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.549996 -1.450003) (xy 0.549996 -0.550002) (xy 1.349996 -0.550002) (xy 1.349996 -1.450003) (xy 0.549996 -1.450003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e8d6a5bc-90ad-4e73-844b-37af66e4b88d")
+	)
+	(pad "1" smd custom
+		(at 0.949996 -1.000003)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.4 -0.449999) (xy -0.4 0.45) (xy 0.4 0.45) (xy 0.4 -0.449999) (xy -0.4 -0.449999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bb51dd90-3c42-44da-8f5d-00831b1cf6c8")
+	)
+	(pad "2" smd custom
+		(at -0.950004 -0.999997)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.4 -0.449999) (xy -0.4 0.449999) (xy 0.4 0.449999) (xy 0.4 -0.449999) (xy -0.4 -0.449999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "943710e6-4a9b-4fcc-91c5-ddf1f4327113")
+	)
+	(pad "3" smd custom
+		(at 0.000004 1)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.4 -0.45) (xy -0.4 0.449999) (xy 0.4 0.449999) (xy 0.4 -0.45) (xy -0.4 -0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3add8818-64fa-4bb9-a0ba-03e6184e1c17")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,0 +1,182 @@
+(footprint "C2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C2"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "7de07ca2-9117-4140-8672-b02b45ae8e92")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "0.1uF"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "97f97daa-0916-4860-ab4d-5fcd936eadb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ManufacturerPartNumber" "CL21B104KBCNNNC"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c2e9e413-77d2-5a19-a340-fb54718eb62e")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceBOM" "https://drive.google.com/file/d/1EBPdoYV8IRlJl5H9KqLQGCuI6NOrhwHS/view"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c3088108-ebff-5889-9add-26a3de74f3f7")
+		(effects (font (size 1 1)))
+	)
+	(property "SourceDesignator" "C2"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7d94f4db-9a1b-505c-aa5f-d91da346720f")
+		(effects (font (size 1 1)))
+	)
+	(property "Manufacturer" "Samsung Electro-Mechanics"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "6dc1b039-2062-51e7-b6b6-88cea58f5113")
+		(effects (font (size 1 1)))
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "8f441dc9-9021-4aaa-bf77-a85f3c529404")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "2b3a58d0-7e47-421f-bae3-82aaf671165e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.69 -1.413) (xy -0.69 -0.312999) (xy 0.69 -0.312999) (xy 0.69 -1.413)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "2777248b-8880-492f-a17c-846dd7b26d33")
+	)
+	(fp_poly
+		(pts
+			(xy -0.689999 0.312999) (xy -0.689999 1.412999) (xy 0.690001 1.412999) (xy 0.690001 0.312999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4ed1ae92-549c-48e1-b1f3-55b9934d38b0")
+	)
+	(fp_poly
+		(pts
+			(xy 0.689999 -0.312999) (xy 0.689999 -1.413) (xy -0.690001 -1.413) (xy -0.690001 -0.312999) (xy 0.689999 -0.312999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "01ad9330-cf5a-4733-8622-91b381839c43")
+	)
+	(fp_poly
+		(pts
+			(xy 0.690001 1.413001) (xy 0.690001 0.313) (xy -0.689999 0.313) (xy -0.689999 1.413001) (xy 0.690001 1.413001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "23962974-18a4-4bcf-b302-ab299eee8f3f")
+	)
+	(pad "1" smd custom
+		(at 0.000001 0.863)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.69 0.549999) (xy 0.69 -0.549999) (xy -0.69 -0.549999) (xy -0.69 0.549999) (xy 0.69 0.549999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4402706d-3ef6-43b6-8bcf-7fe74869f3da")
+	)
+	(pad "2" smd custom
+		(at -0.000001 -0.863)
+		(size 0.01 0.01)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.69 0.549999) (xy 0.69 -0.549999) (xy -0.69 -0.549999) (xy -0.69 0.549999) (xy 0.69 0.549999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "adfe81c9-8a50-4616-a1ba-eb180e31df19")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
